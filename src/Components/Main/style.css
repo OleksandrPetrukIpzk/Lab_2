@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+.hot{
+    background: url("https://images.unsplash.com/photo-1565010431002-0c91cad04dd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2028&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.cold{
+    background: url("https://images.unsplash.com/photo-1489515217757-5fd1be406fef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.normal{
+    background: url("https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.windy{
+
+    background: url("https://images.unsplash.com/photo-1561553873-e8491a564fd0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1247&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.autumn{
+
+    background: url("https://images.unsplash.com/photo-1560146560-1fce47962590?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.winter{
+    background: url("https://images.unsplash.com/photo-1611928482473-7b27d24eab80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.search{
+    display: flex;
+    justify-content: center;
+
+}
+.search input{
+    border-radius: 12px;
+    width: 200px;
+    padding: 20px;
+    border: none;
+    background: transparent;
+
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.search button{
+    border-radius: 12px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.info{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    align-self: center;
+    align-items: center;
+}
+.number{
+    margin-top: 20px;
+    background: white;
+    opacity: 0.7;
+    width: 10%;
+    border-radius: 19px;
+}
+.number p{
+    position: relative;
+    font-size: 50px;
+    color: black;
+}
